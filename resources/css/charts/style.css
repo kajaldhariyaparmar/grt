@@ -1,0 +1,341 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, samp, small, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, object, iframe {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    line-height:120%;
+    font-weight: 300;
+    font-style: normal;
+    color:#052D3C;
+    overflow-x:hidden;
+    background:#ffffff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ 
+.clear:after,
+.custom-row:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0}
+a{ 
+    text-decoration: none; 
+    outline: none; 
+    color: #111111;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.main-wrap {
+    clear: both;
+    min-height: 100%;
+    width: 100%;
+    max-width:100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main-wrap-inner{
+    clear:both;
+    width:100%;
+    height: 100%;
+    padding-bottom: 0px;
+    min-height: 500px;
+}
+
+
+.existing-admin-menu{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #c4c4c4;
+    width: 100%;
+    min-width: 250px;
+    max-width: 250px;
+    padding: 40px;
+}
+.existing-admin-menu h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #000000;
+    font-weight: 700;
+   
+}
+/*=========== BEGIN CP CUSTOM DASHBOARD ============*/
+.custom-dashboard-frame{
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    width: 100%;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #6c757d;
+    background-color: #fafbfe;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+.custom-dashboard-frame h1,
+.custom-dashboard-frame h2,
+.custom-dashboard-frame h3,
+.custom-dashboard-frame h4,
+.custom-dashboard-frame h5,
+.custom-dashboard-frame h6{
+    margin: 5px 0px; 
+}
+
+.custom-dashboard-frame .page-title-box .page-title-right {
+    float: right;
+    margin-top: 20px;
+}
+
+.custom-dashboard-frame .cpd-page-title-box .form-control{
+    background-color: #f1f3fa!important;
+    border-color: #f1f3fa!important;
+}
+.custom-dashboard-frame .cpd-page-title-box .btn-outline-secondary{
+    background-color: #727cf5!important;
+    color: #ffffff;
+    border-color: #727cf5!important;
+    font-size: 12px;
+}
+.custom-dashboard-frame .cpd-page-title-box .btn-outline-secondary:hover {
+    color: #ffffff!important;
+    background-color: #6169d0!important;
+    border-color: #5b63c4!important;
+}
+.custom-dashboard-frame .cpd-page-title-box .btn-primary{
+    display: flex;
+    align-items: center;
+    font-size: 14px!important;
+    line-height: 1.5;
+    background-color: #727cf5!important;
+    color: #ffffff;
+    border-color: #727cf5!important;
+    margin-left: 10px;
+}
+.custom-dashboard-frame .cpd-page-title-box .btn-primary span{
+    font-size: 14px;
+    line-height: 1;
+}
+.custom-dashboard-frame .page-title-box.cpd-page-title-box .page-title {
+    font-size: 18px;
+    margin: 0;
+    line-height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+.custom-dashboard-frame .widget-flat {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    -webkit-box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    margin-bottom: 24px;
+}
+.custom-dashboard-frame .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+.custom-dashboard-frame .float-end {
+    float: right!important;
+}
+.custom-dashboard-frame .widget-icon {
+    color: #727cf5;
+    font-size: 20px;
+    background-color: rgba(114,124,245,.25);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.custom-dashboard-frame .card-body h3{
+    font-weight: 700;
+}
+.custom-dashboard-frame .widget-flat .card-body .cpd-icon-down{
+    position: relative;
+    top: 7px;
+}
+.custom-dashboard-frame .widget-flat .card-body .cpd-icon-up{
+    position: relative;
+    top: 7px;
+}
+.custom-dashboard-frame .card{
+    border: none;
+    -webkit-box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+    margin-bottom: 24px;
+}
+.custom-dashboard-frame .card-h-100 {
+    height: calc(100% - 24px);
+}
+.custom-dashboard-frame .card .header-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-dashboard-frame .dropdown-toggle.arrow-none::after {
+    display: none;
+}
+.custom-dashboard-frame .apexcharts-xaxis text, 
+.custom-dashboard-frame .apexcharts-yaxis text {
+    fill: #adb5bd;
+}
+
+.custom-dashboard-frame .chart-content-bg {
+    background-color: #f9f9fd;
+}
+
+.custom-dashboard-frame .text-primary {
+    color: #727cf5!important;
+    font-size: 60%;
+}
+.custom-dashboard-frame .chart-content-bg .text-primary {
+    color: #727cf5!important;
+    font-size: 60%;
+}
+.custom-dashboard-frame .chart-content-bg .text-success {
+    color: #0acf97!important;
+    font-size: 60%;
+}
+
+.cpd-progress-title.fw-normal {
+    font-weight: 400!important;
+    font-size: 14px;
+}
+.custom-dashboard-frame .progress-w-percent {
+    min-height: 20px;
+    margin-bottom: 20px;
+}
+.custom-dashboard-frame .progress-w-percent .progress {
+    width: calc(100% - 50px);
+    float: left;
+    margin-top: 8px;
+}
+.custom-dashboard-frame .progress-w-percent .progress-sm {
+    height: 5px;
+}
+.custom-dashboard-frame .progress-w-percent .progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #727cf5;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.custom-dashboard-frame .progress-w-percent .progress-value {
+    width: 40px;
+    float: right;
+    text-align: right;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+
+.custom-dashboard-frame .cpd-recent-donations .btn-group-sm>.btn, .btn-sm {
+    padding: .28rem .8rem;
+    font-size: .875rem;
+    border-radius: .15rem;
+}
+
+.custom-dashboard-frame .cpd-recent-donations .btn-link {
+    font-weight: 400;
+    color: #727cf5!important;
+    text-decoration: none;
+}
+.custom-dashboard-frame .cpd-recent-donations .btn-link span{
+    position: relative;
+    font-size: 16px;
+    top: 5px;
+}
+
+.cpd-recent-donations .font-14 {
+    font-size: 14px!important;
+}
+.cpd-recent-donations .fw-normal {
+    font-weight: 400!important;
+    color: #6c757d;
+}
+.cpd-recent-donations .font-13 {
+    font-size: 13px!important;
+}
+.cpd-recent-donations .text-muted {
+    color: #98a6ad!important;
+}
+
+.cpd-recent-donations .table-hover>tbody>tr:hover {
+    background-color: #f1f3fa;
+    color: #6c757d;
+}
+
+.cpd-donut-chart .apex-charts {
+    min-height: 10px!important;
+}
+
+.cpd-donut-chart .chart-widget-list p {
+    border-bottom: 1px solid #f1f3fa;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+.cpd-recent-activity .font-14 {
+    font-size: 14px!important;
+}
+.cpd-recent-activity .fw-normal {
+    font-weight: 400!important;
+    color: #6c757d;
+}
+.cpd-recent-activity .font-13 {
+    font-size: 13px!important;
+}
+.cpd-recent-activity .text-muted {
+    color: #98a6ad!important;
+}
+
+.cpd-recent-activity .table-hover>tbody>tr:hover {
+    background-color: #f1f3fa;
+    color: #6c757d;
+}
+/*=========== END CP CUSTOM DASHBOARD ============*/

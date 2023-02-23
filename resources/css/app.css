@@ -1,0 +1,13 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+@import 'bootstrap.min.css';
+@import 'bootstrap-grid.min.css';
+@import 'fonts.css';
+@import 'style.css';
+@import 'responsive.css';
+@import 'loading.css';
+@import 'custom.css';
+@import 'cf-style.css';
+@import 'cf-responsive.css';

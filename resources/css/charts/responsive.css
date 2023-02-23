@@ -1,0 +1,82 @@
+/*		Mobile Layout:320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width:767px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+	.existing-admin-menu{
+		display: none;
+	}
+	.custom-dashboard-frame{
+		padding-left: 0px;
+	}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:575px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+	.custom-dashboard-frame .page-title-box .page-title-right{
+		float: none;
+		position: relative;
+    	padding: 50px 0px 25px;
+	}
+	.custom-dashboard-frame .page-title-box.cpd-page-title-box .page-title{
+		position: absolute;
+		top: 0px;
+	}
+
+}
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+	.existing-admin-menu{
+		display: none;
+	}
+	.custom-dashboard-frame{
+		padding-left: 0px;
+	}
+
+}
+
+/*		Tablet/iPad Layout:1024px.
+-----------------------------------------------------------------
+*/
+@media only screen and (min-width:992px) and (max-width:1024px){
+
+	.existing-admin-menu{
+		display: none;
+	}
+	.custom-dashboard-frame{
+		padding-left: 0px;
+	}
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1199px){
+	.existing-admin-menu{
+		display: none;
+	}
+	.custom-dashboard-frame{
+		padding-left: 0px;
+	}
+
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+	.custom-dashboard-frame .widget-icon{
+		font-size: 16px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+}
+
+
+

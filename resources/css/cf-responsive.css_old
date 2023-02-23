@@ -1,0 +1,101 @@
+/*		Mobile Layout:320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width:767px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+    .cf-search-form .cf-btn-wrap{min-width: 100px;}
+    .cf-campaign-headign-bottom .author-info-inner{flex-wrap: wrap;width: 100%;}
+
+    .cf-dashboard-heading-bottom{justify-content: flex-start; flex-wrap: wrap;}
+    .cf-dashboard-heading-bottom .author-info{float: left; width: 100%; padding-bottom: 15px;}
+    .cf-dashboard-heading-bottom .cf-dashboard-header-right {margin: 0px;}
+    .cf-dashboard-heading-bottom .cf-dashboard-header-right .cf-btn-wrap{width: 100%; margin: 10px 0px 0px;}
+
+    .cf-campaign-headign-bottom .author-info-inner{position: relative;}
+    .cf-campaign-headign-bottom .author-avatar { margin-right: 0px; position: absolute;left: 0px;top: 50%; margin-top: -20px;}
+    .cf-campaign-headign-bottom .author-info-inner h3{padding-left: 50px;}
+
+
+    .cf-campaign-single-content iframe, 
+    .cf-campaign-single-content object, 
+    .cf-campaign-single-content embed{height: 230px; min-height: 230px;}
+
+    .cf-campaign-headign-bottom .cf-campaign-single-header-right .cf-btn-wrap.cf-join-team-btn{margin-bottom: 10px;}
+
+}
+
+@media only screen and (max-width:575px){
+
+	.cf-home-campaign-create-btn{margin-bottom: 10px;}
+    .cf-campaign-single-header{float: left;width: 100%;}
+    .cf-campaign-headign-bottom{justify-content: flex-start; flex-wrap: wrap; }
+    .cf-campaign-headign-bottom .author-info{float: left; width: 100%; padding-bottom: 15px; min-height: 40px;}
+    .cf-campaign-headign-bottom .author-info-inner{position: relative;}
+    .cf-campaign-headign-bottom .author-avatar { margin-right: 0px; position: absolute;left: 0px;top: 50%; margin-top: -20px;}
+    .cf-campaign-headign-bottom .author-info-inner h3{padding-left: 50px;}
+
+    .cf-campaign-headign-bottom .cf-campaign-single-header-right{margin: 0px;}
+    .cf-campaign-headign-bottom .cf-campaign-single-header-right .cf-btn-wrap{min-width: 160px; margin: 0px;}
+    .cf-campaign-headign-bottom .cf-campaign-single-header-right .cf-btn-wrap.cf-cam-edit-btn{ width: auto; margin-left: 0px!important; margin-right: auto;}
+    .cf-dashboard-content-body .cf-dashboard-item-wrap{flex-wrap: nowrap;}
+
+    .cf-dashboard-content-body .cf-dashboard-item-wrap .cf-title-col.cf-column{flex: 0 1 55%;padding: 0px;}
+    .cf-dashboard-content-body .cf-dashboard-item-wrap .cf-team-members-col.cf-column{flex: 0 1 23%; padding: 0px;}
+    .cf-dashboard-content-body .cf-dashboard-item-wrap h2,
+    .cf-dashboard-content-body .cf-dashboard-item-wrap h3{padding: 0 10px;}
+
+    .cf-new-campaign-section .cf-new-campaign-wrap label{font-size: 12px;}
+    .cf-new-campaign-section .cf-new-campaign-wrap .select-bx{padding: 0 30px 0px 15px;}
+
+    .cf-campaign-single-content iframe, 
+    .cf-campaign-single-content object, 
+    .cf-campaign-single-content embed{height: 215px; min-height: 215px;}
+
+    .cf-donate-mobile-btn{float: left; display: block; width: 100%; margin-top: 30px;}
+    .cf-single-donate-form-container{margin-top: 30px;}
+
+
+
+    .cf-single-campaign-header .header-donate-btn,
+    .cf-single-campaign-header .header-currency-select{ display: none;}
+    .cf-single-campaign-header .header-cart{top: -22px;}
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:370px){
+    .cf-campaign-headign-bottom .cf-campaign-single-header-right .cf-btn-wrap{min-width: 140px; margin: 0px; padding: 0 10px; font-size: 14px;}
+
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .cf-home-campaign-create-btn .cf-btn-wrap{font-size: 14px; padding: 0 5px;}
+
+}
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+    .cf-dashboard-heading-bottom{justify-content: flex-start; flex-wrap: wrap;}
+    .cf-dashboard-heading-bottom .author-info{float: left; width: 100%; padding-bottom: 15px;}
+    .cf-dashboard-heading-bottom .cf-dashboard-header-right {margin: 0px;}
+
+    .cf-campaigns-section .cf-btn-wrap{ min-width: 80px; padding: 0 10px;}
+    .cf-campaigns-section .col-sm-4 .cf-home-campaign-create-btn .cf-btn-wrap{font-size: 11px;}
+
+
+    .cf-campaign-single-content iframe, 
+    .cf-campaign-single-content object, 
+    .cf-campaign-single-content embed{height: 230px; min-height: 230px;}
+
+
+}
+
+
+
+
